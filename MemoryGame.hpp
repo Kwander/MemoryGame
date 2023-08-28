@@ -4,7 +4,8 @@
 #include <string>
 #include <vector>
 
-class MemoryGame {
+class MemoryGame
+{
 public:
     MemoryGame();
     MemoryGame(int n);
@@ -20,7 +21,7 @@ private:
     int numSlots;
     std::string *values;
 
-    int* randomize(int numSlots);
+    int *randomize(int numSlots);
     void swap(int *arr, int i, int j);
     void displaySeparateLine(int numSlots);
 };
